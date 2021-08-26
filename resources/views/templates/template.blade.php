@@ -13,6 +13,7 @@
     <h2>Tiêu đề từ template</h2>
     @yield('content')
     {{ $send }}
+    <h1>Hello</h1>
     @yield('js')
     @include('includes.footer')
 </body>
